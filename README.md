@@ -24,13 +24,13 @@
 
 * Run on a container on your swarm cluster:
 
-```docker -H :4000 run -p 3000:3000 -d wardviaene/nodejs-demo```
+```docker -H :4000 run -p 3000:3000 -d killabayte/nodejs-project```
 
 * List containers:
 
 ```docker -H :4000 ps```
 
-* Connect to the nodejs-demo container
+* Connect to the nodejs-project container
 
 ```curl 192.168.0.247:3000```
 
